@@ -1,0 +1,251 @@
+ATLAS RUNTIME GOVERNANCE LICENSE
+Version 1.0
+
+Copyright (c) 2026 Christopher Cruz and ATLAS Contributors
+
+DEFINITIONS
+
+"Software" means the ATLAS Runtime Governance system and all associated
+documentation, code, and materials provided under this License.
+
+"Licensee" means any person or entity exercising permissions granted by this License.
+
+"Ethical Use Requirements" means the restrictions set forth in Section 2 of this License.
+
+"Human Rights" means the rights enumerated in the Universal Declaration of Human
+Rights and other internationally recognized human rights instruments.
+
+
+1. GRANT OF LICENSE
+
+Subject to the terms and conditions of this License, the copyright holder hereby
+grants to Licensee a worldwide, royalty-free, non-exclusive license to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, strictly subject
+to compliance with the Ethical Use Requirements set forth in Section 2.
+
+
+2. ETHICAL USE REQUIREMENTS AND PROHIBITED USES
+
+2.1 General Principle
+The Software is designed and intended solely to increase safety, accountability,
+transparency, and human control over artificial intelligence systems. Any use
+inconsistent with this purpose is prohibited.
+
+2.2 Prohibited Uses
+Licensee shall NOT, and shall NOT permit any third party to, use the Software to:
+
+    (a) SURVEILLANCE AND PRIVACY VIOLATIONS
+        (i)   Develop, operate, or facilitate mass surveillance systems;
+        (ii)  Implement social credit or social scoring systems;
+        (iii) Enable pervasive tracking of individuals without their express,
+              informed, and freely-given consent;
+        (iv)  Process personal data in violation of applicable data protection
+              laws or in ways that violate reasonable privacy expectations;
+
+    (b) MILITARY AND WEAPONS APPLICATIONS
+        (i)   Develop or operate autonomous weapons systems;
+        (ii)  Develop or operate lethal autonomous systems or AI-directed
+              targeting systems;
+        (iii) Integrate the Software into military command and control systems
+              for kinetic operations;
+
+    (c) DISCRIMINATION AND CIVIL RIGHTS VIOLATIONS
+        (i)   Make decisions affecting hiring, credit, housing, insurance, or
+              criminal justice that unlawfully discriminate based on race, color,
+              religion, sex, national origin, age, disability, genetic information,
+              or other protected characteristics under applicable law;
+        (ii)  Suppress, censor, or restrict lawful speech or expression;
+        (iii) Target individuals or groups for persecution, harassment, or
+              differential treatment based on protected characteristics;
+        (iv)  Implement policies that systematically disadvantage protected groups;
+
+    (d) MANIPULATION AND EXPLOITATION
+        (i)   Deceive, manipulate, or exploit vulnerable populations including
+              children, elderly persons, or individuals with cognitive disabilities;
+        (ii)  Deploy dark patterns, manipulative interfaces, or deceptive practices
+              to obtain consent or influence behavior;
+        (iii) Create addictive systems designed to exploit psychological vulnerabilities;
+
+    (e) AUTHORITARIAN CONTROL
+        (i)   Develop or operate systems designed to suppress democratic processes,
+              free elections, or political participation;
+        (ii)  Enable censorship regimes or information control systems;
+        (iii) Facilitate social manipulation at population scale for political purposes;
+        (iv)  Support regimes engaged in crimes against humanity, genocide, or
+              systematic human rights violations;
+
+    (f) SUBVERSION OF SAFETY SYSTEMS
+        (i)   Bypass, disable, or undermine safety controls, guardrails, or
+              governance mechanisms in AI systems;
+        (ii)  Facilitate "jailbreaking" or circumvention of safety measures for
+              malicious purposes;
+        (iii) Remove or disable audit logging, accountability mechanisms, or
+              transparency features;
+
+    (g) PRIMARY HARM
+        (i)   Develop systems whose primary, substantial, or intended purpose is
+              to cause physical harm, psychological harm, economic harm, or
+              reputational harm to individuals or groups;
+        (ii)  Use the Software in bad faith under the pretext of "research,"
+              "testing," or "academic purposes" when the true intent is to
+              develop harmful applications.
+
+2.3 Safe Harbor for Security Research
+Nothing in Section 2.2(f) shall prohibit good-faith security research, vulnerability
+disclosure, red-teaming, or adversarial testing conducted for the purpose of
+improving system safety, provided that:
+    (i)   Such research is conducted ethically and responsibly;
+    (ii)  Findings are disclosed to affected parties and/or the public in
+          accordance with responsible disclosure practices;
+    (iii) The research does not itself cause substantial harm.
+
+
+3. PERMITTED USES
+
+The following uses are expressly permitted and encouraged:
+
+    (a) Developing, deploying, or operating AI agent systems in commercial,
+        governmental, research, or personal contexts where the purpose is to
+        increase safety, accountability, or human control;
+
+    (b) Preventing AI systems from causing accidental or negligent harm through
+        policy enforcement, constraint checking, or runtime governance;
+
+    (c) Conducting legitimate security research, penetration testing, red-teaming,
+        or adversarial evaluation to improve AI safety;
+
+    (d) Academic research into AI safety, AI governance, AI alignment, or related fields;
+
+    (e) Building compliance systems, audit systems, or regulatory technology for
+        AI accountability;
+
+    (f) Educational use, training, skill development, or demonstration purposes;
+
+    (g) Any use that materially increases transparency, safety, human agency, or
+        democratic control over AI systems.
+
+
+4. ATTRIBUTION AND NOTICE REQUIREMENTS
+
+4.1 Licensee shall include the following in all copies or substantial portions
+of the Software:
+    (a) The copyright notice set forth above;
+    (b) This License in its entirety;
+    (c) A conspicuous notice that the Software is subject to Ethical Use Requirements.
+
+4.2 In any public-facing system, interface, or documentation that incorporates
+the Software, Licensee shall provide reasonable attribution to the ATLAS project
+and its contributors.
+
+
+5. COMPLIANCE CERTIFICATION
+
+5.1 Upon request by the copyright holder, Licensee shall provide written
+certification of compliance with the Ethical Use Requirements.
+
+5.2 Licensee shall maintain records sufficient to demonstrate compliance with
+this License for a period of no less than three (3) years.
+
+
+6. LICENSE TERMINATION
+
+6.1 Automatic Termination
+This License and all rights granted hereunder shall automatically terminate,
+without notice, upon Licensee's breach of any Ethical Use Requirement set forth
+in Section 2.
+
+6.2 Effect of Termination
+Upon termination:
+    (a) Licensee shall immediately cease all use of the Software;
+    (b) Licensee shall destroy all copies of the Software in Licensee's possession
+        or control;
+    (c) Licensee shall certify in writing to the copyright holder that such
+        destruction has been completed;
+    (d) All sublicenses granted by Licensee shall also terminate;
+    (e) The copyright holder reserves all legal and equitable remedies.
+
+6.3 Survival
+Sections 4, 5, 6, 7, 8, and 9 shall survive termination of this License.
+
+6.4 Severability of Termination
+Termination of this License with respect to one Licensee shall not affect the
+rights of any other Licensee in good standing.
+
+
+7. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT.
+
+THE COPYRIGHT HOLDER MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING:
+    (a) The accuracy, reliability, or completeness of the Software;
+    (b) The Software's suitability for any particular purpose;
+    (c) The results that may be obtained from use of the Software;
+    (d) The correction of any errors or defects in the Software.
+
+LICENSEE ASSUMES ALL RISK ASSOCIATED WITH USE OF THE SOFTWARE.
+
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE, INCLUDING BUT NOT LIMITED TO:
+
+    (a) Direct, indirect, incidental, special, exemplary, or consequential damages;
+    (b) Loss of profits, revenue, data, or use;
+    (c) Business interruption;
+    (d) Any damages whatsoever resulting from loss of use, data, or profits.
+
+This limitation applies even if the copyright holder has been advised of the
+possibility of such damages.
+
+
+9. INTERPRETATION AND CONSTRUCTION
+
+9.1 Good Faith Interpretation
+This License shall be interpreted and construed in good faith to advance its
+stated purpose: enabling safe, accountable, and human-supervised AI agent systems
+while preventing misuse that could harm individuals or society.
+
+9.2 Ambiguity Resolution
+In case of ambiguity regarding whether a particular use is permitted, the following
+test shall apply: Does the use materially increase human agency, safety, transparency,
+and democratic control over AI systems, or does it enable systems of surveillance,
+control, manipulation, harm, or deception? Uses falling into the former category
+are presumptively permitted; uses falling into the latter are presumptively prohibited.
+
+9.3 Governing Law
+This License shall be governed by and construed in accordance with the laws of
+[JURISDICTION TO BE SPECIFIED], without regard to its conflict of law provisions.
+
+9.4 Entire Agreement
+This License constitutes the entire agreement between the parties with respect
+to the subject matter hereof and supersedes all prior or contemporaneous
+understandings or agreements, written or oral.
+
+9.5 Amendments
+This License may only be amended by written instrument signed by the copyright holder.
+
+9.6 Waiver
+No waiver of any provision of this License shall be effective unless in writing
+and signed by the party against whom the waiver is asserted.
+
+
+10. CONTACT INFORMATION
+
+For questions regarding permitted uses under this License:
+[CONTACT INFORMATION TO BE SPECIFIED]
+
+For reporting suspected violations of the Ethical Use Requirements:
+[ABUSE CONTACT INFORMATION TO BE SPECIFIED]
+
+
+ACKNOWLEDGMENT
+
+BY USING, COPYING, MODIFYING, OR DISTRIBUTING THE SOFTWARE, LICENSEE ACKNOWLEDGES
+THAT LICENSEE HAS READ THIS LICENSE, UNDERSTANDS IT, AND AGREES TO BE BOUND BY
+ITS TERMS AND CONDITIONS.

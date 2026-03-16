@@ -1,0 +1,40 @@
+# ATLAS Tool Backend Systemd Service
+
+[Unit]
+Description=ATLAS Tool Backend - Document Management Tools
+After=network.target
+
+[Service]
+Type=simple
+User=atlas
+Group=atlas
+WorkingDirectory=/opt/atlas
+Environment="HOST=0.0.0.0"
+Environment="PORT=9001"
+EnvironmentFile=-/etc/atlas/tools.env
+
+ExecStart=/opt/atlas/venv/bin/uvicorn tool_backend:app --host 0.0.0.0 --port 9001 --workers 2
+
+# Restart policy
+Restart=always
+RestartSec=10
+StartLimitInterval=5min
+StartLimitBurst=3
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/atlas/demo_world.db
+
+# Resource limits
+LimitNOFILE=65536
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=atlas-tools
+
+[Install]
+WantedBy=multi-user.target

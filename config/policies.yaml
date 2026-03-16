@@ -1,0 +1,10 @@
+response_policies:
+  browse:
+    Restricted: metadata_only
+    Confidential: redacted
+  direct_read:
+    Restricted: redacted
+    Confidential: full
+generic_rules:
+  cross_boundary_write: escalate
+  within_retention_delete: downgrade

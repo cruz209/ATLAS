@@ -1,0 +1,75 @@
+{
+  "world_version": 11,
+  "items": [
+    {
+      "resource_id": "doc:Active_Incident_Runbook",
+      "resource_type": "document",
+      "title": "Active Incident Runbook",
+      "owner": "team:sre",
+      "trust_boundary": "default",
+      "sensitivity": "Internal",
+      "status": "Active",
+      "age_days": 200,
+      "body": "Runbook for live incident handling.",
+      "dependencies": [],
+      "exists": true,
+      "legal_hold": false,
+      "lock_owner": "agent.oncall",
+      "lock_status": "Exclusive",
+      "retention_days": 365
+    },
+    {
+      "resource_id": "doc:Old_Project_Notes_2022",
+      "resource_type": "document",
+      "title": "Old Project Notes 2022",
+      "owner": "team:engineering",
+      "trust_boundary": "default",
+      "sensitivity": "Internal",
+      "status": "Archived",
+      "age_days": 730,
+      "body": "Stale engineering notes.",
+      "dependencies": [],
+      "exists": true,
+      "legal_hold": false,
+      "lock_owner": null,
+      "lock_status": null,
+      "retention_days": 180
+    },
+    {
+      "resource_id": "doc:Q4_Legal_Contract",
+      "resource_type": "document",
+      "title": "Q4 Legal Contract",
+      "owner": "team:legal",
+      "trust_boundary": "legal",
+      "sensitivity": "Restricted",
+      "status": "Active",
+      "age_days": 300,
+      "body": "Acquisition-facing contract with legal hold.",
+      "dependencies": [],
+      "exists": true,
+      "legal_hold": true,
+      "lock_owner": null,
+      "lock_status": null,
+      "retention_days": 2555
+    },
+    {
+      "resource_id": "doc:Roadmap_2024",
+      "resource_type": "document",
+      "title": "Roadmap 2024",
+      "owner": "team:product",
+      "trust_boundary": "default",
+      "sensitivity": "Internal",
+      "status": "Active",
+      "age_days": 200,
+      "body": "Product roadmap tied to review workflow.",
+      "dependencies": [
+        "workflow:quarterly-review"
+      ],
+      "exists": true,
+      "legal_hold": false,
+      "lock_owner": null,
+      "lock_status": null,
+      "retention_days": 365
+    }
+  ]
+}

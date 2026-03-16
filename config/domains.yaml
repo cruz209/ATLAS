@@ -1,0 +1,19 @@
+domains:
+  documents:
+    resource_type: document
+    tools:
+      list: {effect: read, access_mode: browse}
+      get: {effect: read, access_mode: direct_read}
+      archive: {effect: write, access_mode: write}
+      delete: {effect: write, access_mode: write}
+    transforms:
+      delete: archive
+
+  email:
+    resource_type: email
+    tools:
+      get: {effect: read, access_mode: direct_read}
+      send: {effect: write, access_mode: write}
+      save_draft: {effect: write, access_mode: write}
+    transforms:
+      send: save_draft

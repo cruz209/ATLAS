@@ -1,0 +1,10 @@
+defaults:
+  default_actor_boundary: default
+
+actors:
+  agent.nova:
+    trust_boundary: default
+  agent.finance:
+    trust_boundary: finance
+  human.reviewer:
+    trust_boundary: admin

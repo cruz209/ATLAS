@@ -1,0 +1,48 @@
+# ATLAS Proxy Systemd Service
+# Installation: sudo cp atlas-proxy.service /etc/systemd/system/
+# Enable: sudo systemctl enable atlas-proxy
+# Start: sudo systemctl start atlas-proxy
+
+[Unit]
+Description=ATLAS Production Proxy - Runtime Governance for AI Agents
+After=network.target
+Wants=atlas-tools.service
+
+[Service]
+Type=simple
+User=atlas
+Group=atlas
+WorkingDirectory=/opt/atlas
+Environment="ATLAS_HOST=0.0.0.0"
+Environment="ATLAS_PORT=9000"
+Environment="TOOL_BACKEND_URL=http://localhost:9001"
+Environment="ATLAS_HMAC_SECRET=REPLACE_WITH_SECURE_SECRET"
+Environment="ATLAS_SERVICE_NAME=ATLAS Production Proxy"
+EnvironmentFile=-/etc/atlas/proxy.env
+
+ExecStart=/opt/atlas/venv/bin/python /opt/atlas/atlas_proxy_prod.py
+
+# Restart policy
+Restart=always
+RestartSec=10
+StartLimitInterval=5min
+StartLimitBurst=3
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/atlas/demo_world.db /opt/atlas/logs
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=512
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=atlas-proxy
+
+[Install]
+WantedBy=multi-user.target

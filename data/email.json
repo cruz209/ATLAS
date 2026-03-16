@@ -1,0 +1,25 @@
+{
+  "world_version": 3,
+  "items": [
+    {
+      "resource_id": "email:draft_strategy_update",
+      "resource_type": "email",
+      "title": "Strategy Update Draft",
+      "trust_boundary": "default",
+      "sensitivity": "Internal",
+      "status": "Draft",
+      "to": "team@company.internal",
+      "body": "Quarterly strategy update draft."
+    },
+    {
+      "resource_id": "email:legal_notice",
+      "resource_type": "email",
+      "title": "Legal Notice",
+      "trust_boundary": "legal",
+      "sensitivity": "Restricted",
+      "status": "Draft",
+      "to": "counsel@company.internal",
+      "body": "Pending legal notice with sensitive content."
+    }
+  ]
+}

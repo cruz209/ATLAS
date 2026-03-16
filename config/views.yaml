@@ -1,0 +1,10 @@
+views:
+  full:
+    hide_fields: []
+    message: Full view returned.
+  metadata_only:
+    hide_fields: [body, content, raw_text, attachments]
+    message: Sensitive fields were hidden by ATLAS.
+  redacted:
+    hide_fields: [body, content]
+    message: Restricted fields were redacted by ATLAS.
